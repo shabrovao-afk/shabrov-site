@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Контакты Шаброва Олега Федоровича — email, форма обратной связи, адрес.">
+  <title>Контакты — Шабров Олег Федорович</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="images/Favicon_fin.svg">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="images/Shabrov OF.jpg" alt="Шабров Олег Федорович" class="logo-img">
+        <div class="logo-text">
+          Шабров Олег Ф.
+          <small>профессор МГУ</small>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О себе</a></li>
+          <li><a href="publications.html">Научные работы</a></li>
+          <li><a href="articles.html">Публикации</a></li>
+          <li><a href="teaching.html">Преподавание</a></li>
+          <li><a href="media.html">Медиа</a></li>
+          <li><a href="contacts.html" class="active">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" aria-label="Меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <section class="breadcrumb">
+    <div class="container">
+      <ul class="breadcrumb-list">
+        <li><a href="index.html">Главная</a></li>
+        <span class="separator">/</span>
+        <li class="current">Контакты</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Page Content -->
+  <div class="page-content">
+
+    <section class="page-intro">
+      <div class="container">
+        <h2>Контакты</h2>
+        <p>Свяжитесь со мной для сотрудничества, научных консультаций или по вопросам преподавательской деятельности.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Contact info -->
+          <div>
+            <h3 style="margin-bottom: 2rem;">Контактная информация</h3>
+
+            <div class="contact-info-item fade-in">
+              <div class="contact-icon">✉</div>
+              <div>
+                <h4>Электронная почта</h4>
+                <p><a href="mailto:oleg@shabrov.info" style="color: var(--blue-primary);">oleg@shabrov.info</a></p>
+              </div>
+            </div>
+
+            <div class="contact-info-item fade-in">
+              <div class="contact-icon">🏛</div>
+              <div>
+                <h4>Адрес</h4>
+                <p>МГУ им. М.В. Ломоносова<br>
+                Факультет политологии<br>
+                Кафедра государственной политики<br>
+                119991, г. Москва, Ленинские горы, д. 1</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item fade-in">
+              <div class="contact-icon">📞</div>
+              <div>
+                <h4>Телефон</h4>
+                <p><a href="tel:+74959390000" style="color: var(--blue-primary);">+7 (495) 939-00-00</a><br>
+                <small style="color: var(--gray-text);">Факультет политологии МГУ</small></p>
+              </div>
+            </div>
+
+            <div class="contact-info-item fade-in">
+              <div class="contact-icon">🕐</div>
+              <div>
+                <h4>Часы приёма</h4>
+                <p>Понедельник — Пятница: 10:00 — 17:00<br>
+                <small style="color: var(--gray-text);">По предварительной записи</small></p>
+              </div>
+            </div>
+
+            <div style="margin-top: 2.5rem; padding: 1.5rem; background: var(--gray-light); border-radius: 8px;" class="fade-in">
+              <h4 style="margin-bottom: 0.75rem;">По вопросам сотрудничества:</h4>
+              <p style="font-size: 0.9rem; color: var(--gray-text);">
+                Я открыт для научных контактов, совместных исследовательских проектов, экспертных консультаций и участия в научных мероприятиях. Пожалуйста, используйте форму обратной связи или электронную почту для связи.
+              </p>
+            </div>
+          </div>
+
+          <!-- Contact form -->
+          <div>
+            <h3 style="margin-bottom: 2rem;">Форма обратной связи</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Ваше имя *</label>
+                <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Электронная почта *</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.ru" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Тема обращения</label>
+                <input type="text" id="subject" name="subject" placeholder="Тема вашего сообщения">
+              </div>
+
+              <div class="form-group">
+                <label for="message">Сообщение *</label>
+                <textarea id="message" name="message" placeholder="Напишите ваше сообщение..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-blue" style="width: 100%; justify-content: center;">Отправить сообщение</button>
+
+              <p style="font-size: 0.85rem; color: var(--gray-text); margin-top: 1rem; text-align: center;">
+                Нажимая «Отправить сообщение», вы соглашаетесь на обработку персональных данных.
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Map section -->
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Как добраться</h2>
+        <div style="background: var(--gray-medium); border-radius: 8px; height: 350px; display: flex; align-items: center; justify-content: center; color: var(--gray-text); font-size: 1.1rem;">
+          <div style="text-align: center;">
+            <p style="font-size: 2rem; margin-bottom: 0.5rem;">📍</p>
+            <p>МГУ им. М.В. Ломоносова, Ленинские горы, д. 1</p>
+            <p style="font-size: 0.9rem; margin-top: 0.5rem;">Метро «Университет»</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Шабров Олег Федорович</h4>
+          <p>Доктор политических наук, профессор<br>
+          Профессор кафедры государственной политики<br>
+          Факультет политологии МГУ им. М.В. Ломоносова<br>
+          Президент Академии политической науки</p>
+        </div>
+        <div class="footer-links">
+          <h4>Навигация</h4>
+          <a href="index.html">Главная</a>
+          <a href="about.html">О себе</a>
+          <a href="publications.html">Научные работы</a>
+          <a href="articles.html">Публикации</a>
+          <a href="teaching.html">Преподавание</a>
+        </div>
+        <div class="footer-links">
+          <h4>Контакты</h4>
+          <a href="mailto:oleg@shabrov.info">oleg@shabrov.info</a>
+          <a href="contacts.html">Форма обратной связи</a>
+          <a href="media.html">Медиа</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="copy">&copy; 2024 Шабров Олег Федорович. Все права защищены.</span>
+        <span class="creator">
+          <img src="images/signature.svg" alt="Creator">
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" aria-label="Наверх">↑</button>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>

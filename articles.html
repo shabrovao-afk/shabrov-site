@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Публикации и аналитические материалы Шаброва Олега Федоровича — политический анализ, экспертные оценки, прогнозы.">
+  <title>Публикации — Шабров Олег Федорович</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="images/Favicon_fin.svg">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="images/Shabrov OF.jpg" alt="Шабров Олег Федорович" class="logo-img">
+        <div class="logo-text">
+          Шабров Олег Ф.
+          <small>профессор МГУ</small>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О себе</a></li>
+          <li><a href="publications.html">Научные работы</a></li>
+          <li><a href="articles.html" class="active">Публикации</a></li>
+          <li><a href="teaching.html">Преподавание</a></li>
+          <li><a href="media.html">Медиа</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" aria-label="Меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <section class="breadcrumb">
+    <div class="container">
+      <ul class="breadcrumb-list">
+        <li><a href="index.html">Главная</a></li>
+        <span class="separator">/</span>
+        <li class="current">Публикации</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Page Content -->
+  <div class="page-content">
+
+    <section class="page-intro">
+      <div class="container">
+        <h2>Публикации и аналитика</h2>
+        <p>Актуальные политические анализы, экспертные оценки, прогнозы и комментарии по ключевым событиям политической повестки.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+
+        <!-- Filter buttons -->
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2.5rem;">
+          <button class="filter-btn btn-blue" data-filter="all" style="padding: 0.5rem 1.2rem; font-size: 0.9rem; border-radius: 20px;">Все</button>
+          <button class="filter-btn" data-filter="analysis" style="padding: 0.5rem 1.2rem; font-size: 0.9rem; border-radius: 20px; background: transparent; color: var(--blue-primary); border: 2px solid var(--blue-primary);">Аналитика</button>
+          <button class="filter-btn" data-filter="commentary" style="padding: 0.5rem 1.2rem; font-size: 0.9rem; border-radius: 20px; background: transparent; color: var(--blue-primary); border: 2px solid var(--blue-primary);">Комментарии</button>
+          <button class="filter-btn" data-filter="forecast" style="padding: 0.5rem 1.2rem; font-size: 0.9rem; border-radius: 20px; background: transparent; color: var(--blue-primary); border: 2px solid var(--blue-primary);">Прогнозы</button>
+        </div>
+
+        <!-- Articles grid -->
+        <div class="card-grid" id="articlesGrid">
+
+          <div class="card fade-in" data-type="analysis">
+            <img src="images/i.webp" alt="Статья" class="card-image">
+            <div class="card-body">
+              <span class="pub-type">Аналитика</span>
+              <h3>Трансформация политической системы: ключевые тренды 2024</h3>
+              <p>Анализ ключевых тенденций развития политических систем в условиях современных глобальных вызовов и изменений.</p>
+              <p class="pub-meta" style="margin-top: 0.5rem;">20 декабря 2024</p>
+              <a href="#" class="card-link">Читать далее →</a>
+            </div>
+          </div>
+
+          <div class="card fade-in" data-type="forecast">
+            <img src="images/i (1).webp" alt="Статья" class="card-image">
+            <div class="card-body">
+              <span class="pub-type">Прогноз</span>
+              <h3>Прогноз развития политических процессов на 2025 год</h3>
+              <p>Экспертная оценка перспектив развития политической ситуации в России и мире на ближайшую перспективу.</p>
+              <p class="pub-meta" style="margin-top: 0.5rem;">15 декабря 2024</p>
+              <a href="#" class="card-link">Читать далее →</a>
+            </div>
+          </div>
+
+          <div class="card fade-in" data-type="commentary">
+            <img src="images/i (2).webp" alt="Статья" class="card-image">
+            <div class="card-body">
+              <span class="pub-type">Комментарий</span>
+              <h3>Роль политических институтов в обеспечении стабильности</h3>
+              <p>Комментарий по вопросам укрепления институциональной основы государственного управления и политической стабильности.</p>
+              <p class="pub-meta" style="margin-top: 0.5rem;">8 декабря 2024</p>
+              <a href="#" class="card-link">Читать далее →</a>
+            </div>
+          </div>
+
+          <div class="card fade-in" data-type="analysis">
+            <img src="images/i (3).webp" alt="Статья" class="card-image">
+            <div class="card-body">
+              <span class="pub-type">Аналитика</span>
+              <h3>Публичная политика как инструмент государственного управления</h3>
+              <p>Исследование механизма разработки и реализации публичной политики в современной системе государственного управления.</p>
+              <p class="pub-meta" style="margin-top: 0.5rem;">1 декабря 2024</p>
+              <a href="#" class="card-link">Читать далее →</a>
+            </div>
+          </div>
+
+          <div class="card fade-in" data-type="forecast">
+            <img src="images/1774.jpg" alt="Статья" class="card-image">
+            <div class="card-body">
+              <span class="pub-type">Прогноз</span>
+              <h3>Геополитические сдвиги и их влияние на внутреннюю политику</h3>
+              <p>Анализ взаимосвязи между геополитическими процессами и трансформацией внутренней политической повестки.</p>
+              <p class="pub-meta" style="margin-top: 0.5rem;">25 ноября 2024</p>
+              <a href="#" class="card-link">Читать далее →</a>
+            </div>
+          </div>
+
+          <div class="card fade-in" data-type="commentary">
+            <img src="images/ktYb9gHFSq.jpg" alt="Статья" class="card-image">
+            <div class="card-body">
+              <span class="pub-type">Комментарий</span>
+              <h3>Цифровизация и политические технологии будущего</h3>
+              <p>Экспертный комментарий о влиянии цифровых технологий на политические процессы и электоральное поведение.</p>
+              <p class="pub-meta" style="margin-top: 0.5rem;">18 ноября 2024</p>
+              <a href="#" class="card-link">Читать далее →</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Шабров Олег Федорович</h4>
+          <p>Доктор политических наук, профессор<br>
+          Профессор кафедры государственной политики<br>
+          Факультет политологии МГУ им. М.В. Ломоносова<br>
+          Президент Академии политической науки</p>
+        </div>
+        <div class="footer-links">
+          <h4>Навигация</h4>
+          <a href="index.html">Главная</a>
+          <a href="about.html">О себе</a>
+          <a href="publications.html">Научные работы</a>
+          <a href="articles.html">Публикации</a>
+          <a href="teaching.html">Преподавание</a>
+        </div>
+        <div class="footer-links">
+          <h4>Контакты</h4>
+          <a href="mailto:oleg@shabrov.info">oleg@shabrov.info</a>
+          <a href="contacts.html">Форма обратной связи</a>
+          <a href="media.html">Медиа</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="copy">&copy; 2024 Шабров Олег Федорович. Все права защищены.</span>
+        <span class="creator">
+          <img src="images/signature.svg" alt="Creator">
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" aria-label="Наверх">↑</button>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Article filter functionality
+    (function() {
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const articles = document.querySelectorAll('#articlesGrid .card');
+      
+      filterBtns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          const filter = this.getAttribute('data-filter');
+          
+          // Update active button
+          filterBtns.forEach(function(b) {
+            b.style.background = 'transparent';
+            b.style.color = 'var(--blue-primary)';
+          });
+          this.style.background = 'var(--blue-primary)';
+          this.style.color = 'var(--white)';
+          
+          articles.forEach(function(article) {
+            const type = article.getAttribute('data-type');
+            if (filter === 'all' || type === filter) {
+              article.style.display = '';
+            } else {
+              article.style.display = 'none';
+            }
+          });
+        });
+      });
+      
+      // Set all as active initially
+      document.querySelector('.filter-btn[data-filter="all"]').style.background = 'var(--blue-primary)';
+      document.querySelector('.filter-btn[data-filter="all"]').style.color = 'var(--white)';
+    })();
+  </script>
+
+</body>
+</html>
